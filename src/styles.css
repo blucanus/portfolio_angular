@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Roboto Flex', sans-serif;
+}
+.btn-gray {
+    color: #ffc107!important;
+    background-color: rgb(87, 87, 87) !important;
+    border-radius: 50px !important;
+}
+.btn-gray:hover {
+    background-color:#ffc107 !important;
+    color: rgb(87, 87, 87) !important;
+}

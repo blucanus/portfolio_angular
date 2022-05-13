@@ -1,0 +1,15 @@
+.encabezado {
+    border-radius: 0px;;
+}
+.titulazo {
+    font-weight: 100;
+}
+.btn-perfil {
+    visibility: hidden;
+}
+.btn-perfil:hover {
+    visibility: visible;
+}
+.img-perfil .img-thumbnail{
+    border-radius: 50%;
+}
