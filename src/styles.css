@@ -11,3 +11,17 @@ body {
     background-color:#ffc107 !important;
     color: rgb(87, 87, 87) !important;
 }
+.border-light {
+    border: none !important;
+}
+.btn-edit {
+    position: relative;
+    z-index: 10;
+    right: -94%;
+    top: 2.5rem;
+    opacity:0;
+}
+
+.experiencia-item:hover > .btn-edit {
+    opacity: 1;
+}

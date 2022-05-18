@@ -1,0 +1,18 @@
+<div class="experiencia-item" *ngFor="let experiencia of experienciaList">
+    <a href="#" class="btn btn-gray btn-edit btn-sm"><i class="fa-solid fa-pencil"></i></a>
+    <div class="card p-3">    
+        <div class="row g-0">
+            <div class="col-md-4 text-center align-self-center">
+                <img [src]="experiencia.logo" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">{{experiencia.puesto}} - {{experiencia.name}}</h5>
+                    <p class="card-text">{{experiencia.fecha}}</p>
+                    <p class="card-text">{{experiencia.resumen}}</p>
+                    <a href="{{experiencia.url}}" class="btn btn-gray btn-sm">Ver Sitio Web</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

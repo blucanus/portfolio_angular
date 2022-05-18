@@ -8,13 +8,13 @@
             <div class="collapse navbar-collapse">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                        <a class="nav-link" href="https://www.instagram.com/lberazadi" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="nav-link" href="{{miPortfolio.instagram}}" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.linkedin.com/in/lberazadi" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a class="nav-link" href="{{miPortfolio.linkedin}}" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/blucanus/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a class="nav-link" href="{{miPortfolio.github}}" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn" href="#" target="_blank"><i class="fa-solid fa-circle-user"></i> Login </a>
@@ -24,15 +24,10 @@
         </div>
     </nav>
     <div class="card bg-dark text-white encabezado">
-        <img src="../../assets/img/encabezado.png" class="card-img" >
+        <img [src]="miPortfolio.headImage" class="card-img" >
         <div class="card-img-overlay d-flex align-items-center">
-          <h2 class="card-title display-2 titulazo">Full Stack Developer</h2>         
+          <h2 class="card-title display-2 titulazo">{{miPortfolio.posicion}}</h2>         
         </div>
-        <picture class="img-perfil d-flex align-items-center">
-            <div class="btn-perfil">
-                <a href="#" class="btn btn-gray btn-sm"><i class="fa-solid fa-pencil"></i></a>    
-            </div>                 
-            <img src="../../assets/img/perfil.jpeg" class="img-thumbnail">
-        </picture>
+        
       </div>
 </header>

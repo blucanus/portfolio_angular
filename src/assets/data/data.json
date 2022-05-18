@@ -1,0 +1,41 @@
+{
+    "nombre": "Lucas Berazadi",
+    "headImage": "../assets/img/encabezado.png",
+    "imgPerfil": "../assets/img/perfil.jpeg",
+    "instagram":"https://www.instagram.com/lberazadi",
+    "linkedin":"https://www.linkedin.com/in/lberazadi",
+    "github":"https://github.com/blucanus/",
+    "posicion": "Full Stack Developer",
+    "about": "Desde hace más de 12 años me dedico al desarrollo Front End aunque en algunas oportunidades incursioné con PHP y MySQL. Pero en esta etapa quise actualizarme, y profundizar en algo que me apasiona y que es el desarrollo Full Stack. Creo que trabajar en tecnología nunca tendrá límite ni fin, sólo es cuestión de determinación y continuar capacitandote día a día. <br> Estoy casado, soy Papá de una hermosa pequeña y lo más importante, soy Hijo de Dios!",
+    "experiencia":[{
+        "name": "Grupo Haras del Sur",
+        "logo": "../assets/img/haras.jpeg",
+        "url": "https://www.grupoharasdelsur.com",
+        "puesto":"Diseñado digital y Sistenas",
+        "fecha":"Desde Febrero 2016",
+        "resumen":"Diseño de landings promocionales (HTML 5 Full responsive). Diseño de flyers gráficos para impresión y envío de campañas de email marketing. Análisis, Testeo y Solicitud de desarrollos para el CRM de la empresa - Desde Febrero del 2016 estuve trabajando en conjunto con la empresa desarrolladora para la mejora y puesta en producción del CRM. Se llevó a cabo un análisis de funcionalidades, errores y su posterior corrección. Además se incluyeron desarrollos no pensandos en el diseño original del CRM, como la inclusión de funcionalidades para la administración del Club de Campo (Administradora del Country), Reportes, Control de Ingresos, Administración de Empleados y Proveedores que ingresan al country. Diseño y producción de Videos promocionales e institucionales. Diseño y maquetado de micros sitios web. Desde el área de sistemas también desempeño la tarea de análisis de infraestructura para nuevos requerimientos (redes, cctv, servidores) Implementación de nuevas herramientas y sistemas como control de ingresos, aplicativos, sistemas de gestión contable."
+    },
+        {
+        "name": "LatinManagers",
+        "logo": "",
+        "url": "",
+        "puesto":"Desarrollo Front End",
+        "fecha":"Septiembre 2011 - Febrero 2015",
+        "resumen":"Creación de Sitios web, maquetas o landings en Html, Html5, CSS y CSS3, Bootstrap. Diseño de sitios o herramientas web basadas en PHP o .NET. Creación de vistas utilizando framework Symfony. Diseño con Gestores de Contenido como Joomla o Wordpress. Utilización de herramientas"
+    },
+        {
+        "name": "PROFESOR DE COMPUTACIÓN - INSTITUTO ACE",
+        "logo": "",
+        "url": "",
+        "puesto":"Diseñado digital y Sistenas",
+        "fecha":"Agosto 2010 - Agosto 2011",
+        "resumen":"Profesor en el área de computación – Operador de Pc – Diseño Gráfico (Corel Draw, Photoshop) – Diseño Web (Html, Dreamweaver, Flash) – Reparación de PC y Redes."
+    }
+    ],
+    "educacion": [{
+        "titulo":"Licenciatura en Diseño Multimedial",
+        "facultad":"Faculta de Bellas Artes",
+        "universidad":"Universidad Nacional de La Plata",
+        "completo":"incompleta"        
+    }]
+}

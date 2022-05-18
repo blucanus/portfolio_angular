@@ -1,0 +1,22 @@
+.img-perfil {
+    background: url(../../../assets/img/perfil.jpeg) no-repeat;
+    border-radius: 100px;
+    width: max-content;
+    border: 5px solid rgb(34, 34, 34);
+    margin-top: -40%;
+    margin-bottom: 20px;
+
+}
+.btn-perfil {
+    background: #333333c7;
+    padding: 70px;
+    border-radius: 48%;
+    color: #ffc107!important;
+    z-index: 10;
+    opacity: 0;
+   
+
+}
+.btn-perfil:hover{
+    opacity: 1;
+}
