@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class DatosPortfolioService {
-  url: string = 'http://localhost:8080/';
+  url: string = 'https://backend-lbportfolio.herokuapp.com/';
   constructor( 
     private http: HttpClient
   ) { }

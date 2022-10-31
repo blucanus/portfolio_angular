@@ -7,7 +7,8 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class AutenticacionService {
-  url="http://localhost:8080/api/auth/signin";
+  url="https://backend-lbportfolio.herokuapp.com/api/auth/signin";
+  //url="http://localhost:8080/api/auth/signin";
   currentUserSubject: BehaviorSubject<any>;
   constructor(private http: HttpClient) { 
     console.log("El Servicio de autenticación está corriendo");
